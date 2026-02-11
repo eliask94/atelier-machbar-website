@@ -1,0 +1,33 @@
+:root {
+  --bg: #0f1115;
+  --card: #171a21;
+  --text: #f2f4f8;
+  --muted: #b7c0d1;
+  --border: #2a2f3a;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+a { color: var(--text); }
+.container { max-width: 900px; margin: 0 auto; padding: 24px; }
+
+.header { border-bottom: 1px solid var(--border); }
+.tagline { color: var(--muted); margin-top: 4px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  margin: 16px 0;
+}
+
+.footer { border-top: 1px solid var(--border); margin-top: 32px; }
+.footer small { color: var(--muted); }
