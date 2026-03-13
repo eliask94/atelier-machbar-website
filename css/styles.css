@@ -28,12 +28,14 @@ a {
   padding: 24px;
 }
 
+/* Notice Banner */
+
 .notice {
-  position: static;
+  position: sticky;
   top: 0;
   z-index: 2000;
   background: #c7c2b3;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   padding: 10px 0;
 }
 
@@ -62,66 +64,63 @@ a {
   color: var(--text);
 }
 
+/* HEADER */
+
 .header {
-  background: #7a0000;
-  padding-bottom: 28px;
-  border-bottom: none;
-  position: static;
+  background: var(--bg);
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
+/* Navigation */
+
 .topbar {
-  background: #6d0000;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  padding: 0;
+  background: var(--bg);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
 .topnav {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 0;
-  margin: 0;
+  justify-content: center;
+  gap: 10px 26px;
+  padding: 12px 10px;
 }
 
 .topnav a {
-  font-family: 'Cinzel', serif;
+  font-family: "Cinzel", serif;
   text-decoration: none;
-  color: #f7f2ea;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  padding: 18px 18px;
-  display: inline-block;
-}
-
-.topnav-row1 {
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-.topnav-row2 a {
-  font-size: 13px;
-  padding: 14px 18px;
+  color: var(--text);
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
 }
 
 .topnav a:hover {
-  background: rgba(255,255,255,0.06);
+  opacity: 0.6;
 }
+
+.topnav-row1 {
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Logo */
 
 .logo-wrap {
   display: flex;
   justify-content: center;
-  padding: 46px 20px 10px;
-  background: #8a0000;
+  padding: 32px 20px 10px;
+  background: var(--bg);
 }
 
 .logo {
   display: block;
-  width: 220px;
+  width: 180px;
   max-width: 70%;
   height: auto;
-  margin: 0;
 }
+
+/* Cards */
 
 .card {
   background: var(--card);
@@ -138,10 +137,12 @@ h3 {
   color: var(--text);
 }
 
+/* Footer */
+
 .footer {
   margin-top: 80px;
   padding: 40px 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid rgba(0,0,0,0.08);
   text-align: center;
   background: var(--bg);
 }
