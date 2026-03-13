@@ -17,8 +17,12 @@ body {
 
 a { color: var(--text); }
 .container { max-width: 900px; margin: 0 auto; padding: 24px; }
-
-.header { border-bottom: 1px solid var(--border); }
+.header {
+  position: sticky;
+  top: 0;
+  background: #B2AC9B;
+  z-index: 1000;
+}
 
 .tagline {
   color: #5f6258;
