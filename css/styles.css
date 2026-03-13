@@ -1,4 +1,4 @@
-:root {
+no:root {
   --bg: #B2AC9B;
   --card: #d8d2c5;
   --text: #1f1f1f;
@@ -45,4 +45,25 @@ a { color: var(--text); }
   max-width: 60%;
   height: auto;
   margin: 24px auto 12px auto;
+}
+
+.intro {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 18px;
+  padding: 10px 0 18px 0;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  font-weight: 600;
 }
