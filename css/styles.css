@@ -43,5 +43,5 @@ a { color: var(--text); }
   width: 160px;
   max-width: 60%;
   height: auto;
-  margin: 24px auto 16px auto;
+  margin: 24px auto 12px auto;
 }
