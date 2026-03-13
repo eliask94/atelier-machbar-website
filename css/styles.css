@@ -73,15 +73,18 @@ a {
 .logo {
   display: block;
   width: 130px;
-  margin: 10px auto 30px auto;
+  height: auto;
+  margin: 8px auto 22px auto;
 }
 
 .topnav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 18px 32px;
-  padding: 16px 0;
+  max-width: 720px;
+  margin: 0 auto 18px auto;
+  gap: 10px 24px;
+  padding: 8px 0 10px 0;
 }
 
 .topnav a {
@@ -89,8 +92,10 @@ a {
   color: var(--text);
   font-family: 'Cinzel', serif;
   font-size: 16px;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   font-weight: 600;
+  line-height: 1.2;
+  padding: 2px 4px;
 }
 
 .topnav a:hover {
