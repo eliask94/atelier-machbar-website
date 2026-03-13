@@ -83,17 +83,20 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px 26px;
-  padding: 12px 10px;
+  max-width: 700px;
+  margin: 0 auto;
+  gap: 8px 22px;
+  padding: 10px 10px;
 }
 
 .topnav a {
   font-family: "Cinzel", serif;
   text-decoration: none;
   color: var(--text);
-  font-size: 16px;
-  letter-spacing: 0.08em;
-  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  padding: 6px 4px;
 }
 
 .topnav a:hover {
