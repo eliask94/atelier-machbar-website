@@ -88,10 +88,11 @@ a {
 .topnav a {
   text-decoration: none;
   color: var(--text);
-  font-size: 0.95rem;
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
   letter-spacing: 0.08em;
   font-weight: 600;
-  padding: 6px 8px;
+  padding: 6px 10px;
 }
 
 .topnav a:hover {
