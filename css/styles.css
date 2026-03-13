@@ -75,8 +75,11 @@ a { color: var(--text); }
 }
 
 .notice {
-  background: #d8d2c5;
-  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+  background: #c7c2b3;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   padding: 10px 0;
 }
 
@@ -84,27 +87,17 @@ a { color: var(--text); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
 }
 
 .notice-text {
-  display: flex;
-  flex-direction: column;
-  color: var(--text);
   font-size: 0.95rem;
 }
 
-.notice-text strong {
-  font-size: 1rem;
-}
-
 .notice-close {
-  background: transparent;
+  background: none;
   border: none;
-  font-size: 1.8rem;
-  line-height: 1;
+  font-size: 22px;
   cursor: pointer;
-  color: var(--text);
 }
 
 .footer {
