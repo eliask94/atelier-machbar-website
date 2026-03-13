@@ -19,7 +19,13 @@ a { color: var(--text); }
 .container { max-width: 900px; margin: 0 auto; padding: 24px; }
 
 .header { border-bottom: 1px solid var(--border); }
-.tagline { color: var(--muted); margin-top: 4px; }
+
+.tagline {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 1.2rem;
+  text-align: center;
+}
 
 .card {
   background: var(--card);
