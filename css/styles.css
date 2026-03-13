@@ -31,3 +31,11 @@ a { color: var(--text); }
 
 .footer { border-top: 1px solid var(--border); margin-top: 32px; }
 .footer small { color: var(--muted); }
+
+.logo {
+  display: block;
+  width: 160px;
+  max-width: 60%;
+  height: auto;
+  margin: 24px auto 16px auto;
+}
