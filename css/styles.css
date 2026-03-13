@@ -29,7 +29,7 @@ a {
 }
 
 .notice {
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 2000;
   background: #c7c2b3;
@@ -63,43 +63,64 @@ a {
 }
 
 .header {
-  position: sticky;
-  top: 66px;
-  background: var(--bg);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  z-index: 1000;
+  background: #7a0000;
+  padding-bottom: 28px;
+  border-bottom: none;
+  position: static;
 }
 
-.logo {
-  display: block;
-  width: 130px;
-  height: auto;
-  margin: 8px auto 22px auto;
+.topbar {
+  background: #6d0000;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0;
 }
 
 .topnav {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  max-width: 720px;
-  margin: 0 auto 18px auto;
-  gap: 10px 24px;
-  padding: 8px 0 10px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 0;
 }
 
 .topnav a {
-  text-decoration: none;
-  color: var(--text);
   font-family: 'Cinzel', serif;
-  font-size: 16px;
-  letter-spacing: 0.08em;
-  font-weight: 600;
-  line-height: 1.2;
-  padding: 2px 4px;
+  text-decoration: none;
+  color: #f7f2ea;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  padding: 18px 18px;
+  display: inline-block;
+}
+
+.topnav-row1 {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.topnav-row2 a {
+  font-size: 13px;
+  padding: 14px 18px;
 }
 
 .topnav a:hover {
-  opacity: 0.6;
+  background: rgba(255,255,255,0.06);
+}
+
+.logo-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 46px 20px 10px;
+  background: #8a0000;
+}
+
+.logo {
+  display: block;
+  width: 220px;
+  max-width: 70%;
+  height: auto;
+  margin: 0;
 }
 
 .card {
