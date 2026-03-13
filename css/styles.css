@@ -40,7 +40,7 @@ a { color: var(--text); }
 
 .logo {
   display: block;
-  width: 160px;
+  width: 130px;
   max-width: 60%;
   height: auto;
   margin: 24px auto 12px auto;
