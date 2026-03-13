@@ -191,10 +191,13 @@ h3 {
 }
 
 .insta-icon {
-  width: 32px;
-  height: auto;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
   cursor: pointer;
-  transition: opacity 0.2s;
+  transition: opacity 0.2s ease;
 }
 
 .insta-icon:hover {
