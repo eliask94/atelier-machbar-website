@@ -21,10 +21,11 @@ a { color: var(--text); }
 .header { border-bottom: 1px solid var(--border); }
 
 .tagline {
-  color: var(--muted);
-  margin-top: 4px;
-  font-size: 1.2rem;
+  color: #5f6258;
+  margin-top: 8px;
+  font-size: 1.1rem;
   text-align: center;
+  font-weight: 500;
 }
 
 .card {
