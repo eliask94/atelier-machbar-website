@@ -67,3 +67,36 @@ a { color: var(--text); }
   letter-spacing: 0.04em;
   font-weight: 600;
 }
+
+.notice {
+  background: #d8d2c5;
+  border-bottom: 1px solid var(--border);
+  padding: 10px 0;
+}
+
+.notice-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.notice-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.notice-text strong {
+  font-size: 1rem;
+}
+
+.notice-close {
+  background: transparent;
+  border: none;
+  font-size: 1.8rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--text);
+}
