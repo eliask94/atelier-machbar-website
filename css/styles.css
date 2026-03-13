@@ -204,13 +204,25 @@ h3 {
   opacity: 0.6;
 }
 
-.address a {
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   text-decoration: none;
   color: var(--text);
   font-size: 17px;
   line-height: 1.6;
 }
 
-.address a:hover {
+.map-icon {
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.address-text {
+  display: block;
+}
+
+.address:hover {
   opacity: 0.7;
 }
